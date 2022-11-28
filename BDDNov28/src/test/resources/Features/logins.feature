@@ -1,10 +1,10 @@
+@prod
 Feature: Login Feature Test
   In order to perform successful login
   As a user
   I have to enter correct username and password
 
-
-  Scenario: Login to the	Fb website
+  Scenario: Login to the	Fb website as a valid user
     Given user navigates 	to the facebook Website
     When user validates the homepage title
     Then user enters the username
